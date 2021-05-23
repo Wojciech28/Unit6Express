@@ -1,0 +1,49 @@
+{
+    "projects":[
+        {   
+            "id": 0,
+            "projekt_name":"Phrase Generator",
+            "description":"Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["Html", "Css", "JavaScript"],
+            "live_link": "https://wojciech28.github.io/qoutes1-2/",
+            "github_link":"https://github.com/Wojciech28/qoutes1-2",
+            "image_url":["/image/projekt1a.jpg", "/image/projekt1b.jpg", "/image/projekt1c.jpg"]
+        },
+        {   
+            "id": 1,
+            "projekt_name":"Data Pagination and Filtering ",
+            "description":"Displaying a large amount of data on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to create separate “pages” that each display a small portion of the data. ",
+            "technologies": ["Html", "Css", "JavaScript"],
+            "live_link": "https://wojciech28.github.io/full-stack22/",
+            "github_link":"https://github.com/Wojciech28/full-stack22.git",
+            "image_url":["/image/projekt2a.jpg", "/image/projekt2b.jpg", "/image/projekt2c.jpg"]
+        },
+        {   
+            "id": 2,
+            "projekt_name":"Interactive Form",
+            "description":"Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build.",
+            "technologies": ["Html", "Css", "JavaScript"],
+            "live_link": "https://wojciech28.github.io/fullStack3333/",
+            "github_link":"https://github.com/Wojciech28/fullStack3333.git",
+            "image_url":["/image/projekt3a.jpg", "/image/projekt3b.jpg", "/image/projekt3c.jpg"]
+        },
+        {   
+            "id": 3,
+            "projekt_name":"OOP Game Show App",
+            "description":"Browser-based, word guessing game: 'Phrase Hunter'. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts? ",
+            "technologies": ["Html", "Css", "JavaScript"],
+            "live_link": "https://wojciech28.github.io/portfolio4445/",
+            "github_link":"https://github.com/Wojciech28/portfolio4445.git",
+            "image_url":["/image/projekt4a.jpg", "/image/projekt4b.jpg", "/image/projekt4c.jpg"]
+        },
+        {   
+            "id": 4,
+            "projekt-name":"Public API Requests",
+            "description":"Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+            "technologies": ["Html", "Css", "JavaScript", "AJAX"],
+            "live_link": "https://wojciech28.github.io/unit5AJAX-1/",
+            "github_link":"https://github.com/Wojciech28/unit5AJAX-1.git",
+            "image_url":["/image/projekt5a.jpg", "/image/projekt5b.jpg", "/image/projekt5c.jpg"]
+        }
+    ]
+}

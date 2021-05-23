@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='/image/Wojciech.jpeg', alt='Wojciech')
+        .dev-intro-box
+
+          
+          h5  Wojciech Marcichow
+
+         
+          p I am from Poland but now I live in Isafjordur, it´s a small town and capital city of Westfjords in Iceland. I started to code doing some C++ course on YouTube, it quickly turned into my hobby. Besides coding in my free time I like to taking long walks, listening to music and playing guitar (I like to sing when nobody hears me).
+
+        
+          a(href='/about') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          
+          span Wojciech Marcichow
+
+      block content
+
+  script(src='/static/js/script.js')
