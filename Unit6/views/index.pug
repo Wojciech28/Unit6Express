@@ -1,0 +1,25 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+  
+    h1 #{heading}
+
+    
+    p #{portfolio_description}
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+
+      each project in projects
+          .cell 
+            a(href= `/projects/:${project.id}`)
+              img.thumbnail( src=`${project.image_url[0]}` style=`width: 100%` alt='thumbnail')
+              h5 #{project.projekt_name} 
+
+
+
+
